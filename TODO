@@ -1,0 +1,20 @@
+TODOs oder FUTURE IDEAS...
+
+
+WSDL existiert mit fester Struktur und erwartbaren Protkollen. Alle verlinkten aber auch intern behandelten Protokolle sind wohl strukturiert, und fest definiert.
+Dementsprechend sollte es möglich sein ein Regelwerk zu erstellen, mit dessen Hilfe eine Umsetzung zumindest von der WSDL auf eine Topic Map möglich sein sollte.
+
+Wie könnte das genau aussehen:
+
+Comments: #
+Topics: &
+XML Element: $
+Prefix: %
+Seperator zwischen Prefix und Localname: :
+XPath-Anfragen: ''
+Verweise: ->
+
+z.B. '/definitions/message[2]/part/@type' ->  &dataType
+&tdataType = ws2tm:type/datatype
+&dataType isa &tdataType
+
