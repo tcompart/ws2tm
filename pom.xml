@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>de.grigull</groupId>
+	<groupId>de.compart</groupId>
 	<artifactId>ws2tm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -18,11 +18,8 @@
 
 	<developers>
 		<developer>
-			<id>grigull</id>
-			<name>Torsten Grigull</name>
-			<organization>University of Leipzig - Institute for Informatics</organization>
-			<organizationUrl>informatik.uni-leipzig.de</organizationUrl>
-			<email>mam09amt@studserv.uni-leipzig.de</email>
+			<id>compart</id>
+			<name>Torsten Compart</name>
 		</developer>
 	</developers>
 
